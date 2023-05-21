@@ -1,0 +1,23 @@
+﻿<Window x:Class="EX1_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EX1_3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="42*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="745*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="txb_result" HorizontalAlignment="Left" Margin="15,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="561" Height="336" Grid.Column="3"/>
+        <Button x:Name="btn_pingSync" Content="同步ping" HorizontalAlignment="Left" Margin="605,123,0,0" VerticalAlignment="Top" Width="100" Height="40" Click="btn_pingSync_Click" Grid.Column="3"/>
+        <Button x:Name="btn_pingAsync" Content="异步ping" HorizontalAlignment="Left" Margin="605,193,0,0" VerticalAlignment="Top" Width="100" Height="40" Click="btn_pingAsync_Click" Grid.Column="3"/>
+        <Button x:Name="btn_clear" Content="Clear" HorizontalAlignment="Left" Margin="605,347,0,0" VerticalAlignment="Top" Width="100" Height="40" Grid.Column="3" Click="btn_clear_Click"/>
+        <TextBox x:Name="txb_addr" Grid.Column="3" HorizontalAlignment="Left" Margin="593,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="133" Height="22"/>
+
+    </Grid>
+</Window>

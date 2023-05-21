@@ -1,0 +1,9 @@
+LIBRARY "CppDLL"
+
+EXPORTS
+
+Fact @ 1
+Sub @ 2
+Add @ 3
+Multi @ 4
+Diverse @ 5

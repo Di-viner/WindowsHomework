@@ -1,0 +1,21 @@
+﻿<Window x:Class="EX3_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EX3_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txbFac" HorizontalAlignment="Left" Margin="341,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="27" FontSize="16"/>
+        <Label x:Name="lblFactResult" Content="" HorizontalAlignment="Left" Margin="439,0,0,0" VerticalAlignment="Center"/>
+        <Label Content="计算阶乘" HorizontalAlignment="Left" Margin="267,0,0,0" VerticalAlignment="Center" FontSize="16"/>
+        <Label Content="计算两数差的绝对值" HorizontalAlignment="Left" Margin="187,266,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="txbA" HorizontalAlignment="Left" Margin="341,270,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.066,-0.426" FontSize="16"/>
+        <TextBox x:Name="txbB" HorizontalAlignment="Left" Margin="408,270,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" FontSize="16"/>
+        <Label x:Name="lblSubResult" Content="" HorizontalAlignment="Left" Margin="518,269,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.089,0.488" FontSize="16"/>
+        <Button x:Name="btnResFac" Content="结果" HorizontalAlignment="Left" Margin="398,0,0,0" VerticalAlignment="Center" Click="btnResFac_Click" FontSize="16"/>
+        <Button x:Name="btnResSub" Content="结果" HorizontalAlignment="Left" Margin="477,269,0,0" VerticalAlignment="Top" Click="btnResSub_Click" FontSize="16"/>
+
+    </Grid>
+</Window>

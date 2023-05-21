@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="tbx_result" HorizontalAlignment="Center" Margin="0,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="720" Height="267"/>
+        <Button x:Name="btn_getMac" Content="GetMac" HorizontalAlignment="Left" Margin="40,352,0,0" VerticalAlignment="Top" Height="38" Width="169" Click="btn_getMac_Click"/>
+        <Button x:Name="btn_shutDown" Content="ShutDown" HorizontalAlignment="Left" Margin="591,352,0,0" VerticalAlignment="Top" Height="38" Width="169" Click="btn_shutDown_Click"/>
+
+    </Grid>
+</Window>
